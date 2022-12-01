@@ -10,13 +10,7 @@ Also my attempt to practise writing some idiomatic Go.
 2. Ensure decent test coverage with unit tests
 3. Automate as much as possible, from input parsing to test suite running
 
-# Non-goals
+## Non-goals
 
 1. Solve problems as fast as possible (I'd LeetCode for that instead)
 2. Unnecessary performance optimizations
-
-I think the overall goal is to make a beautiful sculpture that's art, rather 
-than a crude but functional piece of furniture.
-
-At least that's what I am aiming to do, whether it turns out to be is up for
-debate...
