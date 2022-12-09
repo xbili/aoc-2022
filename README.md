@@ -1,7 +1,7 @@
 # Advent of Code 2022
 
-[![.github/workflows/tests.yml](https://github.com/xbili/aoc-2022/actions/workflows/tests.yml/badge.svg)](https://github.com/xbili/aoc-2022/actions/workflows/tests.yml)
-[![Coverage Status](https://coveralls.io/repos/github/xbili/aoc-2022/badge.svg?branch=master)](https://coveralls.io/github/xbili/aoc-2022?branch=master)
+[![.github/workflows/tests.yml](https://github.com/xbili/aoc2022/actions/workflows/tests.yml/badge.svg)](https://github.com/xbili/aoc2022/actions/workflows/tests.yml)
+[![Coverage Status](https://coveralls.io/repos/github/xbili/aoc2022/badge.svg?branch=master)](https://coveralls.io/github/xbili/aoc2022?branch=master)
 
 Link: https://adventofcode.com/2022
 
