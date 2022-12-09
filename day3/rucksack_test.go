@@ -4,7 +4,6 @@ import "testing"
 
 func TestFindDuplicatedItem(t *testing.T) {
 	assertDuplicatedItem(t, "AA", "A")
-	assertDuplicatedItem(t, "ABAB", "A")
 	assertDuplicatedItem(t, "vJrwpWtwJgWrhcsFMMfFFhFp", "p")
 	assertDuplicatedItem(t, "jqHRNqRjqzjGDLGLrsFMfFZSrLrFZsSL", "L")
 	assertDuplicatedItem(t, "PmmdzqPrVvPwwTWBwg", "P")
