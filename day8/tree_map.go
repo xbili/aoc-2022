@@ -78,18 +78,6 @@ func getDimensions(grid [][]int) (rows, cols int) {
 	return len(grid), len(grid[0])
 }
 
-func createEmptyGrid(rows, cols int) [][][]int {
-	empty := make([][][]int, rows)
-	for i := 0; i < rows; i++ {
-		empty[i] = make([][]int, cols)
-		for j := 0; j < cols; j++ {
-			empty[i][j] = make([]int, 2)
-		}
-	}
-
-	return empty
-}
-
 // Perform f, and start iterating from (row,col) towards a certain direction
 func iterate(grid [][]int, row, col int, direction Direction, f func(i, j int) bool) {
 	delta := map[Direction][2]int{
