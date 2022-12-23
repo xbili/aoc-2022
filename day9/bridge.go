@@ -17,6 +17,7 @@ const (
 	Right
 	Up
 	Down
+	InvalidDirection
 )
 
 var Diff = map[Direction][2]int{
@@ -41,9 +42,6 @@ func NewBridge(start [2]int) *Bridge {
 
 // Moves the head in a specific direction for a fixed number of units
 func (bridge *Bridge) Move(direction Direction, distance int) {
-
-	fmt.Println(direction, distance)
-
 	visited := map[string]bool{}
 
 	for i := 0; i < distance; i++ {

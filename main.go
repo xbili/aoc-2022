@@ -8,6 +8,7 @@ import "xbili.com/aoc/day5"
 import "xbili.com/aoc/day6"
 import "xbili.com/aoc/day7"
 import "xbili.com/aoc/day8"
+import "xbili.com/aoc/day9"
 
 func main() {
 	day1.Run("inputs/day1.txt")
@@ -22,4 +23,5 @@ func main() {
 	day6.Run("inputs/day6.txt", 14)
 	day7.Run("inputs/day7.txt")
 	day8.Run("inputs/day8.txt")
+	day9.Run("inputs/day9.txt")
 }
