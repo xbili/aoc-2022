@@ -33,7 +33,7 @@ func (mr *MovementReader) Next() (direction Direction, distance int, ok bool) {
 		return direction, distance, true
 	}
 
-	return InvalidDirection, 0, false
+	return Stationary, 0, false
 }
 
 func parseDirection(token string) Direction {
@@ -48,7 +48,7 @@ func parseDirection(token string) Direction {
 		return Down
 	}
 
-	return InvalidDirection
+	return Stationary
 }
 
 func parseDistance(token string) int {
